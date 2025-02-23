@@ -1,16 +1,22 @@
 {
   "name": "scrapez",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Instagram follower scraper",
+  "main": "root.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node root.js",
+    "postinstall": "npx puppeteer browsers install chrome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.48.1",
-    "puppeteer": "^24.2.1"
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "puppeteer": "^21.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
