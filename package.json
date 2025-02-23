@@ -4,8 +4,7 @@
   "description": "Instagram follower scraper",
   "main": "root.js",
   "scripts": {
-    "start": "node root.js",
-    "postinstall": "npx puppeteer browsers install chrome"
+    "start": "node root.js"
   },
   "keywords": [],
   "author": "",
